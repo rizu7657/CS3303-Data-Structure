@@ -2,8 +2,8 @@ package structure;
 
 import java.util.EmptyStackException;
 
-public class LinkedStack<E>{
-    private Node<E> top;
+public class LinkedStack {
+    private IntNode top;
     private int size;
 
     public LinkedStack() {
@@ -11,24 +11,24 @@ public class LinkedStack<E>{
         size = 0;
     };
 
-    public LinkedStack(E e) {
-        top = new Node<>(e, top);
+    public LinkedStack(int intValue) {
+        top = new IntNode(intValue, top);
         size = 0;
     }
 
-    public E push(E item) {
-        top = new Node<>(item, top);
+    public int push(int intValue) {
+        top = new IntNode(intValue, top);
         size++;
-        return item;
+        return intValue;
     }
 
-    public synchronized E pop() {
+    public synchronized int pop() {
 
         if (top == null) {
             throw new EmptyStackException();
         }
 
-        E temp = (E) top.item;
+        int temp = top.value;
         top = top.next;
         size--;
         return temp;
