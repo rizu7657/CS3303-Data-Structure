@@ -11,11 +11,6 @@ public class LinkedStack {
         size = 0;
     };
 
-    public LinkedStack(int intValue) {
-        top = new IntNode(intValue, top);
-        size = 0;
-    }
-
     public int push(int intValue) {
         top = new IntNode(intValue, top);
         size++;
