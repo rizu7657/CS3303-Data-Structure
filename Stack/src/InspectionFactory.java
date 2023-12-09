@@ -8,7 +8,7 @@ public class InspectionFactory {
     public static void main(String[] args) {
         System.out.println("Inspection Factory is open! Initiating inspection...");
 
-        int n = (int) (Math.random() * 100);
+        int n = (int) Math.ceil(Math.random() * 100);
 
         LinkedStack stack = new LinkedStack();
         for (int i = 0; i < n; i++) {
