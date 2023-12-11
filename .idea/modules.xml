@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CS3303 Data Structure.iml" filepath="$PROJECT_DIR$/.idea/CS3303 Data Structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peerassessment/peerassessment.iml" filepath="$PROJECT_DIR$/peerassessment/peerassessment.iml" />
     </modules>
   </component>
 </project>
