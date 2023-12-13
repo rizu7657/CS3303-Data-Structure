@@ -1,11 +1,11 @@
 import java.util.Objects;
 
 public class BSTNode {
-    Integer value;
+    int value;
     BSTNode left;
     BSTNode right;
 
-    public BSTNode(Integer value) {
+    public BSTNode(int value) {
         this.value = value;
         this.left = this.right = null;
     }
@@ -37,7 +37,7 @@ public class BSTNode {
     public boolean isLeaf() {
         return (left == null) && (right == null);
     }
-    public BSTNode insert(BSTNode tree, Integer value) {
+    public BSTNode insert(BSTNode tree, int value) {
         if (tree == null) return new BSTNode(value);
 
         if (tree.value > value) {
@@ -48,7 +48,7 @@ public class BSTNode {
         return tree;
     }
 
-    public Integer search(BSTNode tree, Integer value, int searchIteration) {
+    public Integer search(BSTNode tree, int value, int searchIteration) {
         if (tree == null) return null;
 
         if (Objects.equals(tree.value, value)) {
