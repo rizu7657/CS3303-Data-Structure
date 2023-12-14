@@ -1,4 +1,3 @@
-import java.util.Objects;
 
 public class BSTNode {
     int value;
@@ -51,7 +50,7 @@ public class BSTNode {
     public Integer search(BSTNode tree, int value, int searchIteration) {
         if (tree == null) return null;
 
-        if (Objects.equals(tree.value, value)) {
+        if (tree.value == value) {
             return searchIteration;
         } else if (tree.getValue() > value) {
             return search(tree.left, value, searchIteration+1);
