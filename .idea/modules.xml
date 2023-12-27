@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignments.iml" filepath="$PROJECT_DIR$/Assignments/Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CS3303 Data Structure.iml" filepath="$PROJECT_DIR$/.idea/CS3303 Data Structure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Structures/Structures.iml" filepath="$PROJECT_DIR$/Structures/Structures.iml" />
       <module fileurl="file://$PROJECT_DIR$/peerassessment/peerassessment.iml" filepath="$PROJECT_DIR$/peerassessment/peerassessment.iml" />
       <module fileurl="file://$PROJECT_DIR$/textbook/textbook.iml" filepath="$PROJECT_DIR$/textbook/textbook.iml" />
     </modules>
